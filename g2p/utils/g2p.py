@@ -27,11 +27,6 @@ phonemizer_en = EspeakBackend(
 )
 # phonemizer_en.separator = separator
 
-phonemizer_ja = EspeakBackend(
-    "ja", preserve_punctuation=False, with_stress=False, language_switch="remove-flags"
-)
-# phonemizer_ja.separator = separator
-
 phonemizer_ko = EspeakBackend(
     "ko", preserve_punctuation=False, with_stress=False, language_switch="remove-flags"
 )
